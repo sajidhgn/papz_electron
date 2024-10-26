@@ -1,0 +1,32 @@
+/* sidebar.module.css */
+.sidebarContainer {
+    overflow: hidden;
+    /* Hide native scrollbar */
+    position: relative;
+}
+
+.scrollableSidebar {
+    overflow-y: scroll;
+    /* Enable scrolling */
+    scroll-snap-type: y mandatory;
+    /* Snap scrolling */
+    height: 100%;
+    /* Adjust to fit your layout */
+}
+
+.scrollableSidebar::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for WebKit browsers */
+}
+
+.scrollableSidebar>div {
+    scroll-snap-align: center;
+    /* Snap to center of each item */
+}
+
+.focusItem {
+    transform: scale(1.2);
+    /* Larger scale for the focused item */
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+}

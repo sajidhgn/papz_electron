@@ -1,0 +1,19 @@
+.plusMinusInput .inputGroupField {
+    font-family: sans-serif;
+}
+
+.plusMinusInput .inputGroupField:focus {
+    outline: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.plusMinusInput .inputGroupField::-webkit-inner-spin-button,
+.plusMinusInput .inputGroupField ::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.disabledBtn {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
