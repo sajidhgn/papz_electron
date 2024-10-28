@@ -5,6 +5,7 @@
 /* globals.css */
 html,
 body {
+    font-family: 'Poppins', sans-serif;
     scrollbar-width: none;
     /* For Firefox */
     -ms-overflow-style: none;

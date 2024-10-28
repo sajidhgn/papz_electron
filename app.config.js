@@ -1,12 +1,12 @@
 const GlobalConfig = {
-    siteurl: "https://chipshop.baiggroupltd.co.uk/",
+    // siteurl: "https://chipshop.baiggroupltd.co.uk/",
     // siteurl: "http://eatstek.test/",
     // siteurl: "http://papazpizza.test/",
-    // siteurl: "http://localhost:8000/",
+    siteurl: "http://localhost:8000/",
 
     // XP-80C UK Printer
     printerID: "WFAtODBD",
-    porrtName: "COM3",
+    portName: "COM3",
 
     //HP
     // printerID: "SFAgTGFzZXJKZXQgUHJvIE1GUCBNMjUtTTI3IFBDTG1T",
